@@ -7,7 +7,6 @@ num2 = int(input("Enter second number: "))
 
 #Find the smaller number
 if num1 > num2:
-    print()
+    print(num2)         #Print the smaller number
 else:
-    print()
-#Print the smaller number
+    print(num1)         #Print the smaller number
