@@ -7,5 +7,4 @@ num2 = int(input("Enter second number: "))
 
 #Determine if the numbers are equal
 if num1 == num2:
-    print()
-#Print "Equal" when the numbers are the same.
+    print("The numbers are: Equal")       #Print "Equal" when the numbers are the same.
