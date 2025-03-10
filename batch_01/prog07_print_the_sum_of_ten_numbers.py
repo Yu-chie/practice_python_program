@@ -3,7 +3,8 @@
 #Ask the user for 10 input numbers
 for i in range(10):
     num = int(input(f"Enter a number {i+1}: "))
-    
-#Get the sum
+    sum = 0
+    #Get the sum
+    sum += num
 
 #Print the sum
