@@ -9,3 +9,4 @@ num2 = int(input("Enter second number: "))
 product = num1 * num2
 
 #Print the product
+print("The product is: ", product)
