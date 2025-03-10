@@ -9,3 +9,4 @@ num2 = int(input("Enter second number: "))
 quotient = num1 / num2
 
 #Print the quotient with decimal points
+print("The quotient is: ", quotient)
