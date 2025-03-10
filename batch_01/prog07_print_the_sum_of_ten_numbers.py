@@ -8,3 +8,4 @@ for i in range(10):
     sum += num
 
 #Print the sum
+print("The sum is: ", sum)
