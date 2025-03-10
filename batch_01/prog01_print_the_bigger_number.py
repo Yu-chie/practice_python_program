@@ -7,8 +7,6 @@ num2 = int(input("Enter second number: "))
 
 #Determine the bigger number
 if num1 > num2:
-    print()
+    print("The bigger number is: ", num1)       #Print the bigger number
 else:
-    print()
-    
-#Print the bigger number
+    print("The bigger number is: ", num2)       #Print the bigger number
