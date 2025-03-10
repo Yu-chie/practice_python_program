@@ -3,5 +3,6 @@
 #Define the range, Loop through numbers 0 to 100
 for num in range(0, 101):
     #Check if number is even
- 
+    if num % 2 != 0:
+        print()
 #Print all even numbers
