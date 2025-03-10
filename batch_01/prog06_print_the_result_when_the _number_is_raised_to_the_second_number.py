@@ -6,5 +6,6 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
 #Raise the First number with the second
+result = num1 ** num2
 
 #Print the result
