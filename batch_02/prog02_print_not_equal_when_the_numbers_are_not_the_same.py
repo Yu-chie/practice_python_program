@@ -6,6 +6,5 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
 #Determine if numbers are not equal
-if num1 > num2:
-    print()
-#Print Not equal
+if num1 != num2:
+    print("Not Equal")          #Print Not equal
