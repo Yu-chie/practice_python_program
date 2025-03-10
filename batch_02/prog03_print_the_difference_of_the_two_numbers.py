@@ -6,5 +6,6 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
 #Subtract the numbers
+dif = num1 - num2
 
 #Print the difference
