@@ -8,3 +8,5 @@ num2 = int(input("Enter second number: "))
 #Determine if numbers are not equal
 if num1 != num2:
     print("Not Equal")          #Print Not equal
+else:
+    print("Equal")
