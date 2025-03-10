@@ -9,3 +9,4 @@ num2 = int(input("Enter second number: "))
 result = num1 ** num2
 
 #Print the result
+print("The result is: ", result)
