@@ -10,5 +10,6 @@ for i in range(10):
     #Determine if odd or even
     if num % 2 != 0:
         odd_numbers += 1
-        
+
 #Print the number of odd numbers
+print("Odd numbers: ", odd_numbers)
