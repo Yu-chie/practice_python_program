@@ -4,5 +4,4 @@
 for num in range(0, 101):
     #Check if the number does not end in 0
     if num % 10 != 0:
-        print()
-    #Print all numbers that does not end in 0
+        print(num)          #Print all numbers that does not end in 0
