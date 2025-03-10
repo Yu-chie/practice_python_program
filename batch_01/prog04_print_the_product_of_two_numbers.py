@@ -6,5 +6,6 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
 #Get the product
+product = num1 * num2
 
 #Print the product
