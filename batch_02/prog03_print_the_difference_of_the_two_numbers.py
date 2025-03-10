@@ -9,3 +9,4 @@ num2 = int(input("Enter second number: "))
 dif = num1 - num2
 
 #Print the difference
+print("The difference is: ", dif)
