@@ -8,6 +8,9 @@ for i in range(10):
     num = int(input(f"Enter a number {i+1}: "))
     numbers.append(num)
 
+#Initialize a set to track numbers
+seen = set()
+
 #Check if number is already in the list
 
     #If not in the list, print then add to the list
