@@ -13,8 +13,8 @@ duplicates = set()
 #Check for duplicates
 for num in numbers:
     if num in seen:
-        duplicates.append(num)
-    seen.append(num)
+        duplicates.add(num)
+    seen.add(num)
 
 #Print Duplicate numbers
 if duplicates:
