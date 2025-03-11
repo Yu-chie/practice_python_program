@@ -3,7 +3,7 @@
 #Ask user for 10 input numbers
 for i in range(10):
     num = int(input(f"Enter number {i+1}: "))
-
+    
 #Check if they have duplicate
 
 #Print unique numbers
