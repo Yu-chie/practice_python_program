@@ -10,11 +10,9 @@ while True:
 #Try to convert input to integer
     try:
         num = int(num)
+        numbers.append(num)         #Append valid number
     except ValueError:
-        break
-
-    #Append valid number
-    numbers.append(num)
+        break    
 
 #Sort numbers in ascending orger
 numbers.sort()
