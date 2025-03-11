@@ -10,5 +10,7 @@ start = min(num1, num2)
 end = max(num1, num2)
 
 #Find the numbers between the two
+for num in range(start, end + 1):
+    print()
 
 #Print numbers
