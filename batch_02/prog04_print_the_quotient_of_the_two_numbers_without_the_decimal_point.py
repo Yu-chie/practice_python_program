@@ -9,3 +9,4 @@ num2 = int(input("Enter second number: "))
 quotient = num1 // num2
 
 #Print quotient without decimal point
+print("The quorient is: ", quotient)
