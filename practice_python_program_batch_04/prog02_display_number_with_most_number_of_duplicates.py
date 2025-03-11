@@ -7,7 +7,11 @@ number_counts = {}
 while True:
     num = input("Enter a number: ")
     
-    
+    try:
+        num = int(num)
+    except ValueError:
+        break
+
     #Add number to dictionary and update count
 
 #Find the number with most duplicates
