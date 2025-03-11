@@ -7,6 +7,7 @@ num = 0
 while num < 100:
 
     #Check if number is odd
-    print()
+    if num % 2 != 0:
+        print()
     
 #Print odd numbers
