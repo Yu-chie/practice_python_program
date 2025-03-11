@@ -13,9 +13,9 @@ while True:
     except ValueError:          #If input is invalid, exit loop
         break
 
-#Check if its the lowest number so far
-if lowest_number is None or num < lowest_number:
-    lowest_number = num
+    #Check if its the lowest number so far
+    if lowest_number is None or num < lowest_number:
+        lowest_number = num
 
 #Print the lowest number
 if lowest_number is not None:
