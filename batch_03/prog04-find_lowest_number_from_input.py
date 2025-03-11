@@ -16,5 +16,9 @@ while True:
 #Check if its the lowest number so far
 if lowest_number is None or num < lowest_number:
     lowest_number = num
-    
+
 #Print the lowest number
+if lowest_number is not None:
+    print("The lowest number is: ", lowest_number)
+else:
+    print("No valid number was entered.")
