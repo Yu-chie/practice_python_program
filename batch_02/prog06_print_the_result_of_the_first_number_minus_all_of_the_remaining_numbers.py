@@ -9,7 +9,6 @@ total = num1
 
 for i in range(9):
     num = int(input(f"Enter number {i+2}: "))
-
-#Subtract 1st number with the remaining number
+    total -= num            #Subtract 1st number with the remaining number
 
 #Print the result
