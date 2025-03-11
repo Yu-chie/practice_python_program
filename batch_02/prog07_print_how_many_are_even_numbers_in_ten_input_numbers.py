@@ -12,3 +12,4 @@ for i in range(10):
         count += 1
 
 #Print the number of even numbers
+print("Even numbers: ", count)
