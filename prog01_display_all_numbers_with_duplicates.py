@@ -5,8 +5,10 @@ numbers = []
 for i in range(10):
     num = int(input("Enter a number: "))
     numbers.append(num)
-    
+
 #Initialize set to track seen and duplicate numbers
+seen = set[]
+duplicates = set[]
 
 #Check for duplicates
 
