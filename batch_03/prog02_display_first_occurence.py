@@ -19,5 +19,6 @@ for num in numbers:
         seen.add(num)                   #Mark it as seen
 
 #Print all numbers without duplicate
+print("Numbers with only first occurrences:")
 if num in first_occurences:
     print(num)
