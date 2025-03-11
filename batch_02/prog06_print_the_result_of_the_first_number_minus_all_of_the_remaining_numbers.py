@@ -3,6 +3,10 @@
 #Ask user for 10 numbers
 print("Please Enter a Number")
 num1 = int(input("Enter number 1: "))
+
+#Initialize total
+total = num1
+
 for i in range(9):
     num = int(input(f"Enter number {i+2}: "))
 
