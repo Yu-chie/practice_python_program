@@ -5,6 +5,7 @@ print("Please Enter a number")
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
-#Divide num1 by num2
+#Get the remainder, Divide num1 by num2
+remainder = num1 % num2
 
 #Print the remainder
