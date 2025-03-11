@@ -9,3 +9,4 @@ num2 = int(input("Enter second number: "))
 remainder = num1 % num2
 
 #Print the remainder
+print("The remainder is: ", remainder)
