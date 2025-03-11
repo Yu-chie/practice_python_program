@@ -20,5 +20,5 @@ for num in numbers:
 
 #Print all numbers without duplicate
 print("Numbers with only first occurrences:")
-if num in first_occurences:
+for num in first_occurences:
     print(num)
