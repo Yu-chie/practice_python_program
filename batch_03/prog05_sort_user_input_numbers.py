@@ -8,8 +8,13 @@ while True:
     num = input("Enter a number: ")
 
 #Try to convert input to integer
+    try:
+        num = int(num)
+    except ValueError:
+        break
 
 #Append valid number
+numbers.append(num)
 
 #Sort numbers in ascending orger
 
