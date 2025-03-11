@@ -19,5 +19,8 @@ while True:
         number_counts[num] = 1
 
 #Find the number with most duplicates
+if number_counts:
+    max_count = max(number_counts.values())         #Get highest occurence
+    most_frequent_numbers = [num for num, count in number_counts.items() if count == max_count]
 
 #Print the number with most duplicates
