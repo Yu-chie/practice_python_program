@@ -8,7 +8,10 @@ while True:
     num = input("Enter a number: ")
 
 #Try to convert input to an integer
-#If input is invalid, exit loop
+    try:
+        num = int(num)
+    except ValueError:          #If input is invalid, exit loop
+        break
 
 #Check if its the lowest number so far
 
