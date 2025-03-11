@@ -14,13 +14,10 @@ while True:
     except ValueError:
         break
 
-#Check if the number has been entered before
+    #Check if the number has been entered before
+    if num in seen_numbers:     #If its in set print Duplicate
+        print("Duplicate")
 
-if num in seen_numbers:     #If its in set print Duplicate
-    print("Duplicate")
-
-else:                       #If its not, print Unique
-    print("Unique")
-    seen_numbers.add(num)   #Add number to the set
-
-#End the program when an invalid input is given
+    else:                       #If its not, print Unique
+        print("Unique")
+        seen_numbers.add(num)   #Add number to the set
