@@ -16,8 +16,11 @@ while True:
 
 #Check if the number has been entered before
 
-    #If its in set print Duplicate
+if num in seen_numbers:     #If its in set print Duplicate
+    print("Duplicate")
 
-    #If its not, print Unique
+else:                       #If its not, print Unique
+    print("Unique")
+    seen_numbers.add(num)   #Add number to the set
 
 #End the program when an invalid input is given
