@@ -13,8 +13,8 @@ while True:
     except ValueError:
         break
 
-#Append valid number
-numbers.append(num)
+    #Append valid number
+    numbers.append(num)
 
 #Sort numbers in ascending orger
 numbers.sort()
