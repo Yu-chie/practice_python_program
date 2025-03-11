@@ -6,6 +6,8 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
 #Determine smaller and bigger number
+start = min(num1, num2)
+end = max(num1, num2)
 
 #Find the numbers between the two
 
