@@ -7,8 +7,8 @@ for i in range(10):
     numbers.append(num)
 
 #Initialize set to track seen and duplicate numbers
-seen = set[]
-duplicates = set[]
+seen = set()
+duplicates = set()
 
 #Check for duplicates
 
