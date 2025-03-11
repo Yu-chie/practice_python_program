@@ -7,6 +7,8 @@ count = 0
 for i in range(10):
     num = int(input(f"Enter a number {i+1}: "))
 
-#Check even numbers
+    #Check even numbers
+    if num % 2 == 0:        
+        count += 1
 
 #Print the number of even numbers
