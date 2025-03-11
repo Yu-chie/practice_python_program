@@ -23,4 +23,8 @@ if number_counts:
     max_count = max(number_counts.values())         #Get highest occurence
     most_frequent_numbers = [num for num, count in number_counts.items() if count == max_count]
 
-#Print the number with most duplicates
+    #Print the number with most duplicates
+    print("Most frequent number(s): ", most_frequent_numbers)
+    print("Occurences: ", max_count)
+else:
+    print("No valid numbers were entered")
