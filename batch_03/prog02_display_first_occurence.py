@@ -12,9 +12,10 @@ for i in range(10):
 seen = set()
 
 #Check if number is already in the list
-
-    #If not in the list, print then add to the list
-
-    #If already in list, ignore
+first_occurences = []
+for num in numbers:
+    if num not in seen:                 #If its the first occurence
+        first_occurences.append(num)    #Store in the list
+        seen.add(num)                   #Mark it as seen
 
 #Print all numbers without duplicate
