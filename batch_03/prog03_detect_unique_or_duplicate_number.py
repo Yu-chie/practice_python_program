@@ -8,8 +8,11 @@ while True:
     num = input("Enter a number: ")
 
     #Try to get an integer input from the user
-
+    try:
+        num = int(num)
     #If input is invalid, break loop
+    except ValueError:
+        break
 
 #Check if the number has been entered before
 
