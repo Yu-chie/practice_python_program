@@ -17,5 +17,10 @@ while True:
 numbers.append(num)
 
 #Sort numbers in ascending orger
+numbers.sort()
 
 #Print sorted numbers
+if numbers:
+    print("Numbers from lowest to highest: ", numbers)
+else:
+    print("No valid numbers were entered.")
