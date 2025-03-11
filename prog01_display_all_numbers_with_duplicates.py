@@ -11,5 +11,9 @@ seen = set()
 duplicates = set()
 
 #Check for duplicates
+for num in numbers:
+    if num in seen:
+        duplicates.append(num)
+    seen.append(num)
 
 #Print Duplicate numbers
