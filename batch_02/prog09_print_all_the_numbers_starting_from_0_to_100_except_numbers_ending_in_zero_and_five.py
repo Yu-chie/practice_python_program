@@ -5,5 +5,4 @@ for num in range(101):
 
     #Check if number end with 0 or 5
     if num % 10 != 0 and num % 10 != 5:
-        print()
-#Print all numbers
+        print(num)          #Print all numbers
