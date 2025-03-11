@@ -4,10 +4,9 @@
 num = 0
 
 #Loop 0 to 100
-while num < 100:
+while num <= 100:
 
     #Check if number is odd
     if num % 2 != 0:
-        print()
-    
-#Print odd numbers
+        print(num)          #Print odd numbers
+    num += 1
