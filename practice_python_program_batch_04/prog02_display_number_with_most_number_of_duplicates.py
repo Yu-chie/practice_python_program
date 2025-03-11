@@ -13,6 +13,10 @@ while True:
         break
 
     #Add number to dictionary and update count
+    if num in number_counts:
+        number_counts[num] += 1
+    else:
+        number_counts[num] = 1
 
 #Find the number with most duplicates
 
