@@ -17,3 +17,7 @@ for num in numbers:
     seen.append(num)
 
 #Print Duplicate numbers
+if duplicates:
+    print("Duplicate numbers: ", duplicates)
+else:
+    print("No duplicates found")
