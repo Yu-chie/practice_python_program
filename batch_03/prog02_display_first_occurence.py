@@ -19,3 +19,5 @@ for num in numbers:
         seen.add(num)                   #Mark it as seen
 
 #Print all numbers without duplicate
+if num in first_occurences:
+    print(num)
