@@ -6,5 +6,6 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
 #Divide the numbers
+quotient = num1 // num2
 
 #Print quotient without decimal point
