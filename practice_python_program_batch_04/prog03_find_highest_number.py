@@ -4,8 +4,14 @@
 highest_number = None
 
 #Add loop to take continuous number inut until invalid
+while True:
+    num = input("Enter a number: ")
 
     #Try converting input to integer
+    try:
+        num = int(num)
+    except ValueError:
+        break
 
 #Update highest number if larger number is found
 
