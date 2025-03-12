@@ -13,9 +13,9 @@ while True:
     except ValueError:
         break
 
-#Update highest number if larger number is found
-if highest_number is None or highest_number < num:
-    highest_number = num
+    #Update highest number if larger number is found
+    if highest_number is None or highest_number < num:
+        highest_number = num
 
 #Print the highest number
 if highest_number is not None:
