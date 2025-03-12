@@ -20,3 +20,7 @@ while True:
 numbers.sort(reverse=True)
 
 #Print sorted numbers
+if numbers:
+    print("Numbers from highest to lowest: ", numbers)
+else:
+    print("No vaid numbers was entered")
