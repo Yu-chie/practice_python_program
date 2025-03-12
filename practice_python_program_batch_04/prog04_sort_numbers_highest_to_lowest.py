@@ -15,6 +15,8 @@ while True:
 
     #Append valid number to list
     numbers.append(num)
+
 #Sort numbers in descending order
+numbers.sort(reverse=True)
 
 #Print sorted numbers
