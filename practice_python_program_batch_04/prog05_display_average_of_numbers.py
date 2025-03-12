@@ -13,6 +13,9 @@ while True:
     except ValueError:
         break
 
+    #Append number to list
+    numbers.append(num)
+
 #Compute the Average
 
 #Print the Average
