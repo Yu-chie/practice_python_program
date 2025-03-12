@@ -17,7 +17,7 @@ while True:
     numbers.append(num)
 
 #Compute the Average
-average = sum(num) / len(num)
+average = sum(numbers) / len(numbers)
 
 #Print the Average
 if numbers:
