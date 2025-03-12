@@ -17,5 +17,10 @@ while True:
     numbers.append(num)
 
 #Compute the Average
+average = sum(num) / len(num)
 
 #Print the Average
+if numbers:
+    print("The average is: ", average)
+else:
+    print("No valid number entered")
