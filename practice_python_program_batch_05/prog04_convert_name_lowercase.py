@@ -5,6 +5,8 @@
 
 #Ask User for Name
 full_name = input("Enter your name: ")
+
 #Make name lowercase
+lowercase_name = full_name.lower()
 
 #Print name
