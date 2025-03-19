@@ -10,3 +10,4 @@ statement = input("Enter a statement: ")
 word_count = len(statement.split())
 
 #Print number of words
+print("Word Count: ", word_count)
