@@ -5,3 +5,7 @@ for num in range(0, 101):
     #Check if number is even
     if num % 2 != 0:
         print(num)          #Print all even numbers
+        
+## Shorter way to code 
+#for num in range(0, 101, 2)
+#   print(num)
